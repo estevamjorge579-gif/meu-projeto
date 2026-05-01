@@ -1,0 +1,103 @@
+Atualize a lista de benefícios dentro do card de oferta (seção onde aparece o preço R$10 e o botão "Quero a super oferta").
+
+---
+
+🎯 OBJETIVO:
+Substituir os itens atuais por uma lista mais estratégica, organizada na ordem correta e adicionar um ícone visual em cada item para aumentar a percepção de valor e conversão.
+
+---
+
+📍 LOCAL:
+Essa alteração deve ser feita DENTRO do card de oferta (o bloco com fundo claro, bordas arredondadas, preço e botão).
+
+---
+
+📝 TEXTO:
+
+Manter o título:
+"O que você leva hoje:"
+
+Substituir TODOS os itens atuais por EXATAMENTE nesta ordem:
+
+1. + 100 MOLDES DE ROUPAS PARA PETS
+2. Guia Rápido de Medidas para Pets
+3. Planner de Produção e Organização
+4. Sugestões de Tecidos e Acabamentos Ideais
+5. Guia de Precificação com Lucro Inteligente
+6. Ideias de Personalização Criativa
+7. Mini-Coleções Temáticas para o Ano Todo
+8. Dicas de Fotos e Vendas no Instagram
+9. Manual do Tamanho Perfeito Para Seu Pet
+10. Manual da Costura Pet
+11. Guia Visual de Costura Pet Passo a Passo
+
+---
+
+🟢 ÍCONE EM CADA ITEM (OBRIGATÓRIO):
+
+- Usar EXATAMENTE o ícone fornecido (círculo verde com check branco)
+- Aplicar o ícone em TODOS os itens da lista
+- O ícone deve ficar à esquerda de cada item
+
+---
+
+📐 LAYOUT DOS ITENS:
+
+Cada item deve seguir:
+
+- display: flex;
+- align-items: center;
+- gap: 10px;
+
+Ícone:
+- Tamanho: entre 18px e 22px
+- Manter proporção original
+- Não distorcer
+
+Texto:
+- Cor: verde escuro ou preto
+- Fonte: mesma da página
+- Peso: 400 a 500
+- Permitir quebra de linha
+
+---
+
+✨ DESTAQUE IMPORTANTE:
+
+- Destacar visualmente:
+  "+ 100 MOLDES DE ROUPAS PARA PETS"
+
+Sugestão:
+- font-weight: 700
+- leve aumento de tamanho
+
+---
+
+🚫 REGRAS:
+
+- Remover qualquer bullet padrão (list-style: none)
+- NÃO usar ícones genéricos (usar apenas o ícone fornecido)
+- NÃO alterar o restante do card (preço, botão, estrutura)
+
+---
+
+📱 RESPONSIVIDADE:
+
+- Garantir que funcione perfeitamente no mobile
+- Manter alinhamento do ícone com o texto mesmo com quebra de linha
+- Espaçamento consistente
+
+---
+
+⚙️ TÉCNICO:
+
+- Código limpo
+- Pode usar <ul>/<li> ou divs
+- Não quebrar layout existente
+- Manter espaçamento entre itens (8px a 12px)
+
+---
+
+🎯 RESULTADO ESPERADO:
+
+Uma lista altamente estratégica, organizada e visualmente forte dentro do card de oferta, aumentando significativamente a percepção de valor e a taxa de conversão.

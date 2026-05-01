@@ -1,0 +1,85 @@
+Crie uma página de vendas moderna, simples, clean e altamente persuasiva para um produto digital com o seguinte tema:
+
+Produto:
+"Transforme sua costura em renda com 100 moldes de roupas para pets prontos para imprimir"
+
+Objetivo da página:
+Converter visitantes em compradores, com foco em clareza, escaneabilidade, confiança e desejo.
+
+Estilo visual:
+
+Clean, minimalista e profissional
+Cores suaves (verde, bege, branco) com contraste para botões
+Tipografia moderna e fácil leitura
+Design 100% responsivo (principal foco em mobile)
+Espaçamentos bem definidos (não poluído como a página atual)
+Ícones simples e elegantes
+Uso de imagens reais de pets com roupas
+📌 Estrutura da página:
+1. Hero (primeira seção)
+Headline forte e direta (benefício principal)
+Subheadline reforçando transformação (ganhar dinheiro com costura pet)
+1 imagem de destaque (pet com roupa bonita)
+Bullet points rápidos (3 benefícios principais)
+Botão CTA destacado: "Quero começar agora"
+Prova leve (ex: “mais de X pessoas já compraram”)
+2. O que você vai receber
+Lista clara e escaneável
+Destaque visual para:
+100 moldes em PDF
+Categorias organizadas
+Fácil de usar (mesmo para iniciantes)
+Acesso imediato e vitalício
+Use ícones ao lado de cada item
+Evitar blocos grandes de texto
+3. Bônus Exclusivos
+Mostrar os 7 bônus como itens separados
+Nome + benefício direto de cada bônus
+Destaque visual (ex: selo “GRÁTIS”)
+Reforço de valor percebido (ex: “valor total R$97, hoje incluso”)
+4. Depoimentos
+3 a 5 depoimentos curtos
+Nome + foto (ou avatar)
+Linguagem real (não robótica)
+Foco em resultado: facilidade, vendas, aprendizado
+5. Oferta
+Apresentação clara do que está incluso
+Lista resumida do pacote completo
+Preço bem destacado: R$10,00
+Comparação (ex: valor real vs valor promocional)
+Botão CTA forte: "Quero aproveitar a oferta"
+Urgência leve (ex: “oferta por tempo limitado”)
+6. Garantia
+Garantia de 7 dias
+Texto simples e direto
+Reduzir risco do cliente
+Ex: “ou seu dinheiro de volta”
+7. Dúvidas Frequentes (FAQ)
+
+Criar pelo menos 5 perguntas:
+
+Preciso saber costurar?
+Como recebo o material?
+Funciona no celular?
+Tem suporte?
+Posso imprimir quantas vezes quiser?
+
+Formato em acordeão (abre/fecha)
+
+8. Rodapé
+Informações básicas:
+Contato
+Termos de uso
+Política de privacidade
+Texto simples
+Sem poluição visual
+⚡ Regras importantes:
+Evitar excesso de texto (problema da página atual)
+Priorizar leitura rápida (mobile-first)
+Usar gatilhos mentais:
+Simplicidade
+Facilidade
+Baixo investimento
+Resultado rápido
+CTAs distribuídos ao longo da página
+Layout fluido e organizado

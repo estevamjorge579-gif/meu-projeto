@@ -1,0 +1,117 @@
+{
+  "task": "improve_social_proof_section",
+  "goal": "Aumentar a taxa de conversão da página de vendas através de provas sociais mais realistas, específicas e persuasivas",
+  "target_sections": [
+    "seção de depoimentos",
+    "abaixo do botão de oferta",
+    "próximo ao preço",
+    "antes da garantia"
+  ],
+  "instructions": {
+    "testimonials_upgrade": {
+      "replace_generic_text": true,
+      "rules": [
+        "Evitar depoimentos genéricos como 'muito bom' ou 'recomendo'",
+        "Usar linguagem natural e informal",
+        "Adicionar pequenos erros humanos (sem exagero)",
+        "Incluir emoção e espontaneidade"
+      ],
+      "structure": {
+        "name": "Nome + inicial do sobrenome",
+        "location": "Cidade/Estado",
+        "avatar": "Imagem circular realista",
+        "rating": "5 estrelas visuais",
+        "text": "Depoimento com resultado + contexto + emoção"
+      },
+      "examples": [
+        "Menina eu fiz o primeiro e já vendi 😍",
+        "Achei que não ia conseguir mas é MUITO fácil sério",
+        "Em 3 dias já fiz minhas primeiras vendas"
+      ]
+    },
+    "whatsapp_style_proof": {
+      "enabled": true,
+      "description": "Criar uma seção estilo conversa de WhatsApp",
+      "ui": {
+        "message_bubble": "verde estilo WhatsApp",
+        "avatar": "pequeno e circular",
+        "alignment": "alternado ou esquerda",
+        "font": "simples e natural"
+      },
+      "content_rules": [
+        "Usar linguagem informal",
+        "Adicionar emojis moderados",
+        "Simular conversa real",
+        "Evitar texto muito perfeito"
+      ]
+    },
+    "micro_proofs": {
+      "enabled": true,
+      "placements": [
+        {
+          "location": "abaixo do botão principal",
+          "text": "+3.247 clientes satisfeitas"
+        },
+        {
+          "location": "próximo ao preço",
+          "text": "Mais de 1.000 downloads nas últimas semanas"
+        },
+        {
+          "location": "próximo à garantia",
+          "text": "97% das clientes recomendam"
+        }
+      ]
+    },
+    "visual_proof": {
+      "enabled": true,
+      "description": "Adicionar provas visuais reais",
+      "elements": [
+        "Fotos de roupas pet feitas com os moldes",
+        "Antes e depois",
+        "Resultados de clientes"
+      ],
+      "layout": "grid ou carousel",
+      "captions": "curtas e específicas (ex: 'feito por iniciante')"
+    },
+    "numbers_and_specificity": {
+      "rules": [
+        "Sempre usar números específicos",
+        "Evitar termos vagos como 'muitos' ou 'várias pessoas'",
+        "Adicionar datas recentes quando possível"
+      ],
+      "examples": [
+        "+2.137 clientes",
+        "Atualizado em 2026",
+        "Mais de 1.000 downloads este mês"
+      ]
+    },
+    "authority_layer": {
+      "enabled": true,
+      "content": [
+        "Material testado por iniciantes",
+        "Baseado em prática real de costura pet",
+        "Organizado para facilitar o uso"
+      ]
+    },
+    "urgency_in_social_proof": {
+      "enabled": true,
+      "examples": [
+        "Ainda tá por 10 reais?? corre",
+        "Acabei de comprar agora 😍",
+        "Gente isso aqui vale MUITO mais"
+      ]
+    },
+    "distribution_strategy": {
+      "rules": [
+        "Não concentrar toda prova social em uma única seção",
+        "Espalhar ao longo da página",
+        "Reforçar antes de decisões importantes (botão, preço, checkout)"
+      ]
+    }
+  },
+  "expected_result": {
+    "perception": "Mais confiança e credibilidade",
+    "user_feeling": "Sensação de que muitas pessoas já compraram e aprovaram",
+    "conversion_impact": "Aumento significativo na taxa de conversão"
+  }
+}

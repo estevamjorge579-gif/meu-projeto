@@ -1,0 +1,99 @@
+Melhore a faixa de urgência (announcement bar) no topo da página para torná-la mais dinâmica, chamativa e com maior foco em conversão.
+
+Objetivo:
+Aumentar a sensação de urgência e chamar mais atenção do usuário sem prejudicar a experiência.
+
+---
+
+🎨 VISUAL E ESTILO:
+
+- Manter a paleta de cores do site (tons de verde)
+- Fundo em verde mais forte (ligeiramente mais escuro que o atual)
+- Texto em branco (#FFFFFF)
+- Fonte com peso maior (font-weight: 600 ou 700)
+- Altura entre 40px e 50px (mais compacta)
+- Padding equilibrado para não deixar o texto “alto” ou desalinhado
+- Centralização vertical perfeita usando flexbox:
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+---
+
+⚡ EMOJI (MUITO IMPORTANTE):
+
+- Aumentar o tamanho do emoji ⚡
+- Adicionar leve animação de pulso (pulse) ou brilho
+- Dar espaçamento entre o emoji e o texto (gap ou margin-right)
+- Opcional: aplicar leve glow (brilho) no emoji para destacar mais
+
+Exemplo:
+- transform: scale(1.1) no emoji
+- animação suave (1s a 1.5s, infinita, leve)
+
+---
+
+🧠 TEXTO (MAIS AGRESSIVO):
+
+Trocar o texto atual por:
+
+"🔥 Oferta válida somente hoje — {DATA_ATUAL}"
+
+ou
+
+"⏳ Última chance — disponível até hoje ({DATA_ATUAL})"
+
+---
+
+📅 DATA DINÂMICA (OBRIGATÓRIO):
+
+- A data deve ser gerada automaticamente via JavaScript
+- Sempre mostrar a data atual do dia do usuário
+- Formato: DD/MM/AAAA
+- Nunca usar data fixa
+
+---
+
+🎬 ANIMAÇÃO DA FAIXA:
+
+- Adicionar animação de entrada suave:
+  - fade-in + slide-down ao carregar a página
+- Duração: entre 0.4s e 0.6s
+- Deve ser sutil (não exagerar)
+
+---
+
+🖱️ INTERAÇÃO (HOVER):
+
+- Ao passar o mouse:
+  - leve alteração na cor do fundo (um pouco mais escuro ou mais claro)
+  - transição suave (0.2s a 0.3s)
+
+---
+
+📱 RESPONSIVIDADE:
+
+- Em telas menores:
+  - permitir quebra de linha no texto
+  - manter centralizado
+  - reduzir levemente o tamanho da fonte se necessário
+
+---
+
+⚙️ TÉCNICO:
+
+- Não usar bibliotecas externas
+- Código limpo e organizado
+- Compatível com React (se estiver usando)
+- Não quebrar o layout da página
+- A faixa deve ser fixa no topo (position: fixed; top: 0;)
+
+---
+
+🎯 RESULTADO ESPERADO:
+
+Uma faixa de urgência:
+- Mais chamativa
+- Mais profissional
+- Com maior sensação de escassez
+- Que aumente a taxa de conversão
